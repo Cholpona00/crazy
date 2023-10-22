@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    transition: .5s;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-small {
+    width: 886px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    padding: 18px 0;
+}
+.header-nav {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links {
+    display: flex;
+    column-gap: 20px;
+}
+.header-link {
+    font-family: "Open Sans", sans-serif;
+    color: #242424;
+    font-weight: 400;
+}
+.header-link:hover {
+    color: #fec503;
+    font-weight: 600;
+}
+.begin{
+    text-align: center;
+    background: url("../assets/bg.png") center/cover no-repeat;
+    padding: 220px 0 236px;
+}
+.begin-title {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.begin-yellow {
+    color: yellow;
+}
+.begin-btn {
+    padding: 8px 50px 10px;
+    border-radius: 100px;
+    background: #FEC503;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #242424;
+    cursor: pointer;
+}
+.benefits {
+    padding: 100px 0;
+}
+.benefits-title {
+    color: #242424;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.benefits-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+.benefits-card {
+    width: calc(50% - 5px);
+    text-align: center;
+}
+.benefits-card-img {
+    width: 40px;
+    height: 40px;
+}
+.benefits-card-title {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.benefits-card-desk {
+    color: #808386;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.portfolio {
+    padding: 100px 0 103px;
+    background: #000000;
+    color: #ffffff;
+}
+.portfolio-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 11px;
+    row-gap: 10px;
+}
+.portfolio-card {
+    width: calc(50% - 5.5px);
+}
+.portfolio-card img {
+    width: 100%
+}
+.portfolio-card.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.portfolio-card-mini {
+    width: calc(50%  - 5px);
+}
+.portfolio-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 50px auto 0;
+    cursor: pointer;
+}
+.about {
+    padding: 100px 0 100px;
+    background: #fff;
+}
+.about-row {
+    display: flex;
+    column-gap: 45px;
+}
+.about-left {
+    width: 45%;
+}
+.about-left img {
+    width: 100%;
+}
+.about-info{
+    width: 55%;
+}
+.about-title {
+    color: #242424;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about-text {
+    color:#808386;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.about-link {
+    color: #242424;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    padding: 26px 0;
+    background: #000000;
+}
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-text {
+   color: #808386;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
